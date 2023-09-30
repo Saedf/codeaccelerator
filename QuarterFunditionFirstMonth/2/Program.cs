@@ -1,5 +1,3 @@
-﻿
-using System.Security;
 
 Console.Write("Please enter a string:");
 string str = Console.ReadLine();
