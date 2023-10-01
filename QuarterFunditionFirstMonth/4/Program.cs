@@ -35,26 +35,5 @@ if (fileExists)
     Console.WriteLine("Count of words that are with more 4 Character :"+countLineWith4Character);
 
 }
-
-
 Console.ReadKey();
-//int lowercase = 0, uppercase = 0;
-//for (var index = 0; index < str.Length; index++)
-//{
-//    var item = str[index];
-//    if (item>='a' && item<='z')
-//    {
-//        lowercase++;
-//    }
 
-//    if (item >= 'A' && item <= 'Z')
-//    {
-//        uppercase++;
-//    }
-
-  
-//}
-
-//Console.WriteLine("Number of Character:" + str.Length);
-//Console.WriteLine("Number of LowerCase:" + lowercase);
-//Console.WriteLine("Number of Uppercase:" + uppercase);
