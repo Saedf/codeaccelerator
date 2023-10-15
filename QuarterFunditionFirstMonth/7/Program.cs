@@ -1,5 +1,4 @@
 Console.Write("Enter a date:(YYYY-MM-DD)");
-Console.WriteLine();
 string input = Console.ReadLine();
 DateTime dtUser=Convert.ToDateTime(input).Date;
 DateTime dtToday=DateTime.Today.Date;
