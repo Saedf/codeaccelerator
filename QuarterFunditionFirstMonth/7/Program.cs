@@ -1,9 +1,5 @@
-﻿
-Console.WriteLine("Enter a date:(YYYY-MM-DD)");
-
+Console.Write("Enter a date:(YYYY-MM-DD)");
 Console.WriteLine();
-Console.Write("Please Select an option:");
-
 string input = Console.ReadLine();
 DateTime dtUser=Convert.ToDateTime(input).Date;
 DateTime dtToday=DateTime.Today.Date;
@@ -24,4 +20,3 @@ else
     Console.WriteLine();
     Console.WriteLine("{0} days have passed since this date",Math.Abs(diffOfDay));
 }
-
